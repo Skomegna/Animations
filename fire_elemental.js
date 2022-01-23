@@ -12,9 +12,9 @@ class FireElemental {
         this.animationc = new Animator(this.spritesheet, 48*12, 0, 48, 48, 6, 0.21, false, true);
         this.animationd = new Animator(this.spritesheet, 48*18, 0, 48, 48, 6, 0.21, false, true);
         this.animatione = new Animator(this.spritesheet, 48*24, 0, 48, 48, 6, 0.21, false, true);
-        this.animationf = new Animator(this.spritesheet, 48*30, 0, 48, 48, 6, 0.21, false, true);
+        this.animationf = new Animator(this.spritesheet, 48*30, 0, 48, 48, 4, 0.21, false, true);
 
-        this.animationg = new Animator(this.spritesheet, 48*36, 0, 48, 48, 6, 0.21, false, true);
+        this.animationg = new Animator(this.spritesheet, 48*36, 0, 48, 48, 4, 0.21, false, true);
         this.animationh = new Animator(this.spritesheet, 48*42, 0, 48, 48, 4, 0.21, false, true);
         this.animationi = new Animator(this.spritesheet, 48*48, 0, 48, 48, 4, 0.21, false, true);
         this.animationj = new Animator(this.spritesheet, 48*54, 0, 48, 48, 4, 0.21, false, true);
