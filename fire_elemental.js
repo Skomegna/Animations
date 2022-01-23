@@ -7,17 +7,17 @@ class FireElemental {
         
         console.log(this.spritesheet);
 
-        this.animation = new Animator(this.spritesheet, 96, 0, 48, 36, 6, 0.2, 0, false, true);
-        this.animationb = new Animator(this.spritesheet, 0, 0, 48, 36, 6, 0.2, 0, false, true);
-        // this.animationc = new Animator(this.spritesheet, 48, 0, 48, 36, 6, 0.2, 0, false, true);
-        // this.animationd = new Animator(this.spritesheet, 144, 0, 48, 36, 6, 0.2, 0, false, true);
-        // this.animatione = new Animator(this.spritesheet, 192, 0, 48, 36, 6, 0.2, 0, false, true);
-        // this.animationf = new Animator(this.spritesheet, 240, 0, 48, 36, 4, 0.175, 0, false, true);
+        this.animation = new Animator(this.spritesheet, 0, 0, 48, 48, 6, 0.21, false, true);
+        this.animationb = new Animator(this.spritesheet, 48*6, 0, 48, 48, 6, 0.21,false, true);
+        this.animationc = new Animator(this.spritesheet, 48*12, 0, 48, 48, 6, 0.21, false, true);
+        this.animationd = new Animator(this.spritesheet, 48*18, 0, 48, 48, 6, 0.21, false, true);
+        this.animatione = new Animator(this.spritesheet, 48*24, 0, 48, 48, 6, 0.21, false, true);
+        this.animationf = new Animator(this.spritesheet, 48*30, 0, 48, 48, 6, 0.21, false, true);
 
-        // this.animationg = new Animator(this.spritesheet, 288, 0, 48, 36, 4, 0.175, 0, false, true);
-        // this.animationh = new Animator(this.spritesheet, 336, 0, 48, 36, 4, 0.175, 0, false, true);
-        // this.animationi = new Animator(this.spritesheet, 384, 0, 48, 36, 4, 0.175, 0, false, true);
-        // this.animationj = new Animator(this.spritesheet, 432, 0, 48, 36, 4, 0.175, 0, false, true);
+        this.animationg = new Animator(this.spritesheet, 48*36, 0, 48, 48, 6, 0.21, false, true);
+        this.animationh = new Animator(this.spritesheet, 48*42, 0, 48, 48, 4, 0.21, false, true);
+        this.animationi = new Animator(this.spritesheet, 48*48, 0, 48, 48, 4, 0.21, false, true);
+        this.animationj = new Animator(this.spritesheet, 48*54, 0, 48, 48, 4, 0.21, false, true);
         
     };
 
@@ -39,21 +39,21 @@ class FireElemental {
 
 
          this.animation.drawFrame(this.game.clockTick, ctx, 100, 400, 3)
-         this.animationb.drawFrame(this.game.clockTick, ctx, 100, 100, 3)
+        this.animationb.drawFrame(this.game.clockTick, ctx, 100, 100, 3)
 
-        // this.animationc.drawFrame(this.game.clockTick, ctx, 100, 250, 3)
+        this.animationc.drawFrame(this.game.clockTick, ctx, 100, 250, 3)
 
-        // this.animationd.drawFrame(this.game.clockTick, ctx, 250, 250, 3)
-        // this.animatione.drawFrame(this.game.clockTick, ctx, 250, 100, 3)
+        this.animationd.drawFrame(this.game.clockTick, ctx, 250, 250, 3)
+        this.animatione.drawFrame(this.game.clockTick, ctx, 250, 100, 3)
 
-        // this.animationf.drawFrame(this.game.clockTick, ctx, 100, 550, 3)
+        this.animationf.drawFrame(this.game.clockTick, ctx, 100, 550, 3)
 
-        // this.animationg.drawFrame(this.game.clockTick, ctx, 250, 400, 3)
+        this.animationg.drawFrame(this.game.clockTick, ctx, 250, 400, 3)
 
-        // this.animationh.drawFrame(this.game.clockTick, ctx, 250, 550, 3)
-        // this.animationi.drawFrame(this.game.clockTick, ctx, 250, 700, 3)
+        this.animationh.drawFrame(this.game.clockTick, ctx, 250, 550, 3)
+        this.animationi.drawFrame(this.game.clockTick, ctx, 250, 700, 3)
 
-        // this.animationj.drawFrame(this.game.clockTick, ctx, 100, 700, 3)
+        this.animationj.drawFrame(this.game.clockTick, ctx, 100, 700, 3)
 
 
         // var offscreenCanvas = document.createElement('canvas');
