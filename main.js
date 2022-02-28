@@ -9,6 +9,10 @@ ASSET_MANAGER.queueDownload("./sprites/wizard.png");
 ASSET_MANAGER.queueDownload("./sprites/zombie.png");
 ASSET_MANAGER.queueDownload("./sprites/orc_2.png");
 ASSET_MANAGER.queueDownload("./sprites/zombie-attack-right.png");
+ASSET_MANAGER.queueDownload("./sprites/opening_cutscene.png");
+ASSET_MANAGER.queueDownload("./sprites/opening_cutscene_2.png");
+ASSET_MANAGER.queueDownload("./sprites/opening_cutscene_3.png");
+
 
 
 ASSET_MANAGER.downloadAll(() => {
